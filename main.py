@@ -82,7 +82,7 @@ if not self_bot:
     def create_help_view():
         view = View()
         # Invite button
-        view.add_item(Button(label="Invite", url=f"https://discord.com/oauth2/authorize?client_id={bot_id}"))
+        view.add_item(Button(label="Invite", url=f"https://discord.com/oauth2/authorize?client_id={bot_id}&permissions=8&integration_type=0&scope=bot"))
         # Tracking button with modal
         track_btn = Button(label="Track Package", style=discord.ButtonStyle.primary)
         
