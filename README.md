@@ -42,18 +42,3 @@ Contributions are welcome! Please open an issue or a pull request if you wish to
 
 This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
-### File `requirements.txt`
-
-discord.py
-requests
-pystyle
-
-### File `setup.bat`
-
-@echo off
-echo 📦 Installing dependencies...
-pip install -r requirements.txt
-echo ✅ Dependencies installed.
-echo 🤖 Running the bot...
-python main.py
-pause
